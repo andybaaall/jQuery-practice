@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.pageContainer {
+  width: 75vw;
+  background-color: paleGreen;
+  margin: auto;
+}
+
+.listContainer {
+  margin: auto;
+  padding: 0vh 10vw;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+button {
+  margin: 2vw;
+  padding: 2vw;
+  background-color: lightCoral;
+}
+
+input {
+  margin: 5vh 5vw;
+}
